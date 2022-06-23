@@ -236,7 +236,7 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: white;
   text-decoration: underline;
 }
 a:hover {
@@ -4053,7 +4053,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #64a19d;
+  color: white;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4063,7 +4063,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #50817e;
+  color: white;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -7531,7 +7531,7 @@ textarea.form-control-lg {
 }
 
 .mb-0 {
-  margin-bottom: 0 !important;
+  margin-bottom: 35 !important;
 }
 
 .mb-1 {
@@ -11579,10 +11579,17 @@ body {
   max-width: 20rem;
   font-size: 1rem;
 }
+
+@media (min-width: 500px) {
+  .masthead h1, .masthead .h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+    
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 5rem;
+    line-height: 5rem;
   }
 }
 @media (min-width: 992px) {
