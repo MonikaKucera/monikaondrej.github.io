@@ -111,7 +111,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 500;
   line-height: 1.2;
 }
-}
+
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
@@ -7959,6 +7959,11 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-green-50 {
+  --bs-text-opacity: 1;
+  color: #64a19d !important;
+}
+
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important;
@@ -11580,9 +11585,9 @@ body {
   font-size: 1rem;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .masthead h1, .masthead .h1 {
-    font-size: 5rem;
+    font-size: 6rem;
     line-height: 5rem;
   }
     
@@ -11645,7 +11650,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/_16.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/signup.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11660,7 +11665,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
-}f
+}
 
  .contact-section {
    padding-top: 5rem;
