@@ -11585,11 +11585,11 @@ body {
   font-size: 1rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 200px) {
   .masthead h1, .masthead .h1 {
     font-size: 6rem;
     line-height: 5rem;
-  }
+    }}
     
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
@@ -11639,15 +11639,16 @@ body {
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 2rem;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
-    width: 30%;
+    width: 0%;
   }
 }
-
+   
+@media (min-width: 200px){   
 .signup-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/signup.png");
@@ -11655,7 +11656,22 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-}
+    }
+    }
+    
+/*
+    
+
+    .signup-section {
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/signup.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+    }
+*/
+
 .signup-section .form-signup input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
