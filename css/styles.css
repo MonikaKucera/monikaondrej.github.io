@@ -11622,8 +11622,13 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 10rem 0;.
 }
+    
+.projects-details-section {
+  padding: rem 0;
+}
+    
 .projects-section .featured-text {
   padding: 2rem;
 }
