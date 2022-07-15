@@ -1614,6 +1614,8 @@ progress {
   .col-xl-8 {
     flex: auto 0 0;
     width: 66.66666667%;
+    resize: both 50%;
+    
   }
 
   .col-xl-9 {
@@ -11514,7 +11516,7 @@ body {
 }
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 0;
+    padding-top:0;
     padding-bottom: 0;
     border-bottom: none;
     background-color: transparent;
